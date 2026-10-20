@@ -59,5 +59,5 @@ sudo apt install libglib2.0-0t64 libsm6 libxext6 libxrender1 -y
 sudo apt install libxkbcommon0 libxcb-cursor0 libfuse2t64 -y
 
 # 安装开发库
-sudo apt install libvtk9-dev libeigen3-dev libboost-all-dev -y
+sudo apt install libeigen3-dev -y
 sudo apt install libasio-dev libtinyxml2-dev libassimp-dev -y

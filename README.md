@@ -117,7 +117,7 @@ bash sh/codex.sh
 
 `deb_install.sh` 逐个安装 `deb/` 顶层的 DEB，通过 apt 联网补齐依赖。只装某个包时可直接运行 `sudo apt install ./x86_init/deb/文件名.deb`。
 
-apt 软件包直接写在 `sh/apt_install.sh` 和 `sh/research.sh` 的安装命令里，需要增删时编辑对应脚本即可。VTK 等网格编译依赖包含在默认 apt 清单中，TeX Live 等工具通过 `sh/research.sh` 按需安装。基础安装会启用 OpenSSH 服务；Docker 组权限需要注销后重新登录。
+apt 软件包直接写在 `sh/apt_install.sh` 和 `sh/research.sh` 的安装命令里，需要增删时编辑对应脚本即可。默认安装 Eigen，不显式安装 `libvtk9-dev` 和 `libboost-all-dev`；需要编译相关项目时再补充。TeX Live 等工具通过 `sh/research.sh` 按需安装。基础安装会启用 OpenSSH 服务；Docker 组权限需要注销后重新登录。
 
 Terminator、ripgrep（`rg`）、fd-find（`fdfind`）、nvtop 均在默认 apt 清单中。
 
