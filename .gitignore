@@ -1,0 +1,11 @@
+/x86_init/deb/
+/x86_init/github/
+/x86_init/skills/
+/x86_init/archives/
+/x86_init/installers/
+/x86_init/manifest.json
+/x86_init/manifest.json.tmp
+/x86_init/.download.lock
+__pycache__/
+*.pyc
+x86_init/WORKFLOWS.md

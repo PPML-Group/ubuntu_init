@@ -1,0 +1,105 @@
+{
+  "github-desktop": {
+    "label": "Desktop Plus（GitHub Desktop 社区分支，最新稳定版）",
+    "group": "default",
+    "resolver": "github",
+    "repo": "desktop-plus/desktop-plus",
+    "asset_pattern": "^DesktopPlus-v[\\d.]+-linux-x86_64\\.deb$",
+    "format": "deb",
+    "homepage": "https://github.com/desktop-plus/desktop-plus"
+  },
+  "vscode": {
+    "label": "Visual Studio Code",
+    "group": "default",
+    "resolver": "vscode",
+    "format": "deb",
+    "homepage": "https://code.visualstudio.com/"
+  },
+  "clash-verge": {
+    "label": "Clash Verge Rev",
+    "group": "default",
+    "resolver": "github",
+    "repo": "clash-verge-rev/clash-verge-rev",
+    "asset_pattern": "^Clash\\.Verge_.*_amd64\\.deb$",
+    "format": "deb",
+    "homepage": "https://github.com/clash-verge-rev/clash-verge-rev"
+  },
+  "miniconda": {
+    "label": "Miniconda（base Python 3.11，各项目另外建环境）",
+    "group": "default",
+    "resolver": "miniconda",
+    "python": "311",
+    "format": "sh",
+    "homepage": "https://repo.anaconda.com/miniconda/"
+  },
+  "todesk": {
+    "label": "ToDesk",
+    "group": "default",
+    "resolver": "todesk",
+    "format": "deb",
+    "homepage": "https://www.todesk.com/linux.html"
+  },
+  "sunlogin": {
+    "label": "向日葵个人版",
+    "group": "default",
+    "resolver": "sunlogin",
+    "format": "deb",
+    "homepage": "https://sunlogin.oray.com/download/linux"
+  },
+  "sogou": {
+    "label": "搜狗拼音（Linux amd64，Fcitx）",
+    "group": "default",
+    "resolver": "sogou",
+    "format": "deb",
+    "homepage": "https://shurufa.sogou.com/linux"
+  },
+  "blender": {
+    "label": "Blender（最新稳定版）",
+    "group": "default",
+    "resolver": "blender",
+    "format": "tar",
+    "homepage": "https://www.blender.org/download/"
+  },
+  "nodejs": {
+    "label": "Node.js LTS（包含npm和npx）",
+    "group": "default",
+    "resolver": "nodejs",
+    "format": "tar",
+    "homepage": "https://nodejs.org/en/download"
+  },
+  "obsidian": {
+    "label": "Obsidian",
+    "group": "research",
+    "resolver": "github",
+    "repo": "obsidianmd/obsidian-releases",
+    "asset_pattern": "^obsidian_.*_amd64\\.deb$",
+    "format": "deb",
+    "homepage": "https://obsidian.md/download"
+  },
+  "zotero": {
+    "label": "Zotero",
+    "group": "research",
+    "resolver": "zotero",
+    "format": "tar",
+    "homepage": "https://www.zotero.org/download/"
+  },
+  "meshlab": {
+    "label": "MeshLab",
+    "group": "research",
+    "resolver": "github",
+    "repo": "cnr-isti-vclab/meshlab",
+    "asset_pattern": "^MeshLab[0-9.]+-linux_x86_64\\.AppImage$",
+    "format": "appimage",
+    "homepage": "https://www.meshlab.net/"
+  },
+  "chrome": {
+    "label": "Google Chrome",
+    "group": "daily",
+    "resolver": "static",
+    "url": "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb",
+    "version": "stable",
+    "mutable": true,
+    "format": "deb",
+    "homepage": "https://www.google.com/chrome/"
+  }
+}
