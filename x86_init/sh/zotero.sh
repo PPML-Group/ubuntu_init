@@ -1,10 +1,4 @@
 #!/bin/bash
-
-# 安装zotero s1
-wget -qO- https://raw.githubusercontent.com/retorquere/zotero-deb/master/install.sh | sudo bash
-
-# 更新apt
-sudo apt update
-
-# 安装zotero s2
-sudo apt install zotero -f -y
+set -euo pipefail
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+exec /usr/bin/python3 "$script_dir/../scripts/install_archive.py" zotero
